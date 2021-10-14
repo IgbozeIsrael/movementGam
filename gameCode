@@ -1,4 +1,10 @@
-se sdl2::pixels::Color;
+import { logging } from "near-sdk-as"
+import { users, User, notes, Note } from "./models";
+
+export function registerUser (accountId : string, name: string, phone: string, email: string, password: string): void
+
+
+use sdl2::pixels::Color;
 use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
 use sdl2::render::{WindowCanvas, Texture};
