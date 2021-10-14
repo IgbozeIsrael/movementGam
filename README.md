@@ -1,4 +1,10 @@
-# movementGam
+import { logging } from "near-sdk-as"
+import { users, User, notes, Note } from "./models";
+
+export function registerUser (accountId : string, name: string, phone: string, email: string, password: string): void
+
+ 
+# movementGame
 A game that has to do with smooth movement of the user.
 se sdl2::pixels::Color;
 use sdl2::event::Event;
